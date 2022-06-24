@@ -1,0 +1,95 @@
+/* GENERAL */
+html,
+body {
+  background-color: #fdf2e9;
+  color: rgb(40, 44, 52);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+  padding: 1.8rem 4rem 1.8rem 0;
+  background-color: #04c2c9;
+}
+
+/* NAV BAR */
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* HERO SECTION */
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 3.2rem 0 3.2rem 0;
+}
+
+.hero {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem 4.8rem 4.8rem;
+  gap: 4.8rem;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 5rem 0 5rem;
+}
+
+.profile-img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 70%;
+  position: relative;
+  box-shadow: 10px 15px 15px #8888;
+}
+
+.profile-photo {
+  position: absolute;
+}
+
+.hero-description {
+  color: rgb(40, 44, 52);
+  font-size: 3.3rem;
+}
+
+/* HEADINGS */
+.subheading {
+  line-height: 1.4;
+}
+
+.heading-secondary {
+  padding: 0;
+}
+
+#name,
+#key-info {
+  color: #56b6c2;
+  font-size: 3.5rem;
+}
+
+.about-me {
+  font-size: 1.2rem;
+  padding: 0 4.8rem 3.6rem 4.8rem;
+  line-height: 1.5;
+}
+
+.skills {
+  font-size: 1.2rem;
+  padding: 0 4.8rem 2.4rem 4.8rem;
+  line-height: 1.5;
+}
