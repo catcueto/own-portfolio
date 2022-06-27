@@ -86,18 +86,25 @@ body {
 
 /* SECTIONS */
 .skills,
-.contact-me {
+.contact-me,
+.project {
   font-size: 1.2rem;
   padding: 0 4.8rem 3.6rem 4.8rem;
   line-height: 1.5;
 }
 
-.contact-me {
-  display: grid;
+.flex-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.grid {
-  grid-template-columns: repeat (3, 1fr);
+.contact-link {
+  text-decoration: none;
+  color: rgb(40, 44, 52);
+}
+
+.contactLinks {
+  list-style: none;
 }
 
 /* FOOTER */
@@ -107,5 +114,5 @@ footer p {
   color: rgb(99, 95, 95);
   font-size: 1rem;
   text-align: center;
-  padding-bottom: 2.4rem;
+  padding: 4.8rem 2.4rem 4.8rem 2.4rem;
 }

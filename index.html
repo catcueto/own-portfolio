@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
 
     <title><>Catalina Cueto</title>
   </head>
@@ -16,6 +17,7 @@
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">HOME</a></li>
           <li><a class="main-nav-link" href="#about-me">ABOUT</a></li>
+          <li><a class="main-nav-link" href="#projects">PROJECTS</a></li>
           <li><a class="main-nav-link" href="#skills">SKILLS</a></li>
           <li><a class="main-nav-link" href="#contact-me">CONTACT</a></li>
           <li><a class="main-nav-link" href="#">RESUME</a></li>
@@ -60,26 +62,40 @@
         </p>
       </section>
 
+            <!-- PROJECTS -->
+              <section class="project" id="projects">
+
+              <span class="subheading">WHAT HAVE I CREATED?</span>
+              <h2 class = "heading-secondary">PROJECTS</h2>
+              <ul>
+                  <li class="project-list"> Personal Trainer Page</li>
+                  <li class="project-list"> Project 2 </li>
+                  <li class="project-list"> Project 3 </li>
+                  <li class="project-list"> Project 4</li>
+                  </ul>
+                  </section>
+
       <!-- SKILLS -->
       <section class="skills" id="skills">
         <span class="subheading">CHECK OUT MY</span>
         <h2 class = "heading-secondary">SKILLS</h2>
         <ul>
-          <li> HTML </li>
-          <li> CSS </li>
-          <li> JavaScript </li>
-          <li> R </li>
-          </ul>
-          </section>
+        <li class=""> HTML </li>
+        <li class="skills-list"> CSS </li>
+        <li class="skills-list"> JavaScript </li>
+        <li class="skills-list"> R </li>
+        </ul>
+        </section>
+
           
       <!-- CONTACT -->
       <section class="contact-me" id="contact-me">
-      <div class = grid>
         <span class="subheading">LET'S GET IN TOUCH</span>
         <h2 class = "heading-secondary">CONTACT</h2>
-        <li><a class="contact-link" href="https://www.linkedin.com/in/catalinacueto">LinkedIn</a></li>
-        <li><a class="contact-link" href="https://github.com/catcueto">GitHub</a></li>
-        <li><a class="contact-link" href="mailto: catacueto@gmail.com">Email</a></li>
+        <div class = flex-container>
+        <li class = contactLinks><a class="contact-link" href="https://www.linkedin.com/in/catalinacueto">LinkedIn</a></li>
+        <li class = contactLinks><a class="contact-link" href="https://github.com/catcueto">GitHub</a></li>
+        <li class = contactLinks><a class="contact-link" href="mailto: catacueto@gmail.com">Email</a></li>
       </div>
       </section>
     <footer>
