@@ -1,5 +1,36 @@
 /* BELOW 1344px */
+@media (max-width: 84rem) {
+  .section-hero,
+  .skills,
+  .contact-me,
+  .project {
+    max-width: 120rem;
+  }
+}
 
-/* BELOW 994px */
+/* BELOW 1000px */
+@media (max-width: 62.5rem) {
+  html {
+    font-size: 65%;
+  }
+}
 
-/* BELOW 560px */
+/* BELOW 760px */
+@media (max-width: 47.5rem) {
+  html {
+    font-size: 55%;
+  }
+  header {
+    width: 100vh;
+  }
+  .project-grid {
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    padding: 1rem 5rem 1rem 5rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    justify-content: center;
+  }
+}
